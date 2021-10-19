@@ -1,1 +1,54 @@
 // TODO
+.loadingScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--pink-800);
+  margin-top: 10rem;
+}
+
+.post {
+  max-width: 720px;
+  line-height: 1.5rem;
+
+  h3 {
+    margin-top: 4rem;
+  }
+
+  .content{
+    margin-top: 3rem;
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+
+    p {
+      display: flex;
+      align-items: center;
+      margin-left: 1.5rem;
+    }
+
+    time {
+      display: flex;
+      align-items: flex-end;
+      color: var(--gray-300);
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.5rem;
+    }
+  }
+
+}
+.banner {
+  width: 100%;
+  margin-top: 2.5rem;
+}
